@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import SignupForm from "./components/SignupForm";
+import "./index.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="logo">
+      <img className="log-image" src="https://logodownload.org/wp-content/uploads/2014/04/amazon-logo-0.png" alt="can't reload " />
+     </div>
+    <SignupForm />
+
     </div>
   );
 }
