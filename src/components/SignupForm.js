@@ -6,7 +6,7 @@ const SignupForm = () => {
         
         {/* form */}
         <div className="signup-content">
-        <div className="signup-form-label">
+        <form className="signup-form-label">
             <h1>Create an account</h1>
             <p>Sign up and get 30 day free trail</p>
         <div className="signup-inputs">
@@ -50,7 +50,7 @@ const SignupForm = () => {
             <h3 className="google-text">Google</h3>
             </div>
         </div>
-        </div>
+        </form>
         {/* footer */}
         <div className="footer">
             <div className="sign-in">
