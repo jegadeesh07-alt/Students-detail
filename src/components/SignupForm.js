@@ -49,8 +49,9 @@ const SignupForm = () => {
             <img className="google-logo" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="" />
             <h3 className="google-text">Google</h3>
             </div>
-        </div>
-        </form>
+            </div>
+           </form>
+       
         {/* footer */}
         <div className="footer">
             <div className="sign-in">
